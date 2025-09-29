@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Laboratorio 7 — HTML y CSS: ejemplos de etiquetas básicas y ejercicios." />
+  <title>Laboratorio 7 — HTML y CSS</title>
+
+</head>
+<body>
+  <header>
+    <h1>Laboratorio 7 — HTML y CSS</h1>
+    <nav aria-label="Navegación principal">
+      <a href="index.html">Inicio</a> |
+      <a href="formulario.html">Formulario</a> |
+      <a href="tabla.html">Tabla</a> |
+      <a href="login.html">Login</a> |
+      <a href="card.html">Card (tarea)</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="objetivo">
+      <h2>Objetivo del laboratorio</h2>
+      <p>Crear páginas web básicas usando HTML y CSS. Aprender y practicar las etiquetas HTML básicas (texto, listas, enlaces, tablas) y aplicar estilos con CSS. :contentReference[oaicite:1]{index=1}</p>
+    </section>
+
+    <section id="que-son-las-etiquetas">
+      <h2>¿Para qué sirven las siguientes etiquetas?</h2>
+      <dl>
+        <dt>&lt;!DOCTYPE html&gt;</dt>
+        <dd>Indica que el documento utiliza HTML5 y obliga al navegador a renderizar en modo estándar.</dd>
+
+        <dt>&lt;html&gt;</dt>
+        <dd>Elemento raíz del documento. El atributo <code>lang="es"</code> indica el idioma principal.</dd>
+
+        <dt>&lt;head&gt;</dt>
+        <dd>Contiene metadatos (por ejemplo: <code>&lt;meta&gt;</code>, <code>&lt;title&gt;</code>), enlaces a CSS y scripts.</dd>
+
+        <dt>&lt;meta&gt;</dt>
+        <dd>Proporciona metadatos como <code>charset</code> (juego de caracteres) o <code>viewport</code> (para diseño responsive).</dd>
+
+        <dt>&lt;title&gt;</dt>
+        <dd>Título de la página que aparece en la pestaña del navegador y en resultados de búsqueda.</dd>
+
+        <dt>&lt;body&gt;</dt>
+        <dd>Contenido visible de la página: texto, imágenes, tablas, formularios, etc.</dd>
+      </dl>
+    </section>
+
+    <section id="ejemplo-body">
+      <h2>Ejemplo: código HTML que puedes colocar dentro de &lt;body&gt;</h2>
+      <p>Este bloque es el ejemplo que la guía sugiere incluir para probar las etiquetas básicas. Ya está incluido aquí, pero puedes copiarlo a otro archivo si lo deseas.</p>
+
+      <article class="demo">
+        <h3>Ejemplo de contenido</h3>
+        <p>Este es un <strong>párrafo</strong> de ejemplo. Prueba <em>etiquetas</em> como <code>&lt;strong&gt;</code>, <code>&lt;em&gt;</code> y <code>&lt;a&gt;</code>.</p>
+
+        <h4>Lista no ordenada</h4>
+        <ul>
+          <li>Elemento 1</li>
+          <li>Elemento 2</li>
+          <li>Elemento 3</li>
+        </ul>
+
+        <h4>Lista ordenada</h4>
+        <ol>
+          <li>Paso uno</li>
+          <li>Paso dos</li>
+          <li>Paso tres</li>
+        </ol>
+
+        <p>Enlace de ejemplo: <a href="https://github.com" target="_blank" rel="noopener">Visitar GitHub</a></p>
+
+        <figure>
+          <img src="https://via.placeholder.com/800x220?text=Laboratorio+7" alt="Imagen de ejemplo para Laboratorio 7" style="max-width:100%;height:auto;">
+          <figcaption>Figura: imagen placeholder (ejemplo).</figcaption>
+        </figure>
+      </article>
+
+      <h3>Instrucción de la práctica</h3>
+      <p>Abre este archivo en el navegador y toma una captura de pantalla de la página (como pide la guía). Adjunta la captura en tu entrega. :contentReference[oaicite:2]{index=2}</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Autor: Tu nombre — Taller de Programación — 2025</p>
+  </footer>
+</body>
+</html>

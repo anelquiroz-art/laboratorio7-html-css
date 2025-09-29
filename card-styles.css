@@ -1,0 +1,22 @@
+body { font-family: Arial, sans-serif; margin:20px; background:#f6f8fb; }
+.cards { display:flex; gap:20px; justify-content:center; }
+.card {
+  background:white;
+  border-radius:12px;
+  overflow:hidden;
+  width:300px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+.card img { width:100%; height:auto; display:block; }
+.card-body { padding:16px; }
+.card-body h3 { margin:0 0 8px 0; }
+.card-body p { margin:0 0 12px 0; color:#555; }
+.btn {
+  display:inline-block;
+  padding:8px 12px;
+  text-decoration:none;
+  border-radius:8px;
+  background:#007acc;
+  color:white;
+  font-weight:600;
+}
