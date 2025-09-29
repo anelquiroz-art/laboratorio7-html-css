@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Formulario</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
 </head>
 <body>
-  <h1>Formulario de contacto</h1>
-  <form action="#" method="post">
-    <label for="name">Nombre:</label><br>
-    <input type="text" id="name" name="name" required><br><br>
+    <h1>Formulario de Ejemplo</h1>
 
-    <label for="email">Correo:</label><br>
-    <input type="email" id="email" name="email" required><br><br>
+    <form action="#" method="post">
+        <p>Nombre: <input type="text" name="nombre"></p>
+        <p>Apellido: <input type="text" name="apellido"></p>
+        <p>Contraseña: <input type="password" name="clave"></p>
+        <p>Correo electrónico: <input type="email" name="correo"></p>
+        <p>Edad: <input type="number" name="edad"></p>
+        <p>Fecha de nacimiento: <input type="date" name="nacimiento"></p>
+        <p>Hora de cita: <input type="time" name="hora"></p>
+        <p>Color favorito: <input type="color" name="color"></p>
+        <p>Sitio web: <input type="url" name="web"></p>
+        <p>Teléfono: <input type="tel" name="telefono"></p>
+        <p>Archivo: <input type="file" name="archivo"></p>
 
-    <label>Género:</label><br>
-    <input type="radio" id="m" name="gender" value="m"><label for="m">M</label>
-    <input type="radio" id="f" name="gender" value="f"><label for="f">F</label><br><br>
+        <p>Género:</p>
+        <p><input type="radio" name="genero" value="masculino"> Masculino</p>
+        <p><input type="radio" name="genero" value="femenino"> Femenino</p>
+        <p><input type="radio" name="genero" value="otro"> Otro</p>
 
-    <label for="country">País:</label><br>
-    <select id="country" name="country">
-      <option value="bo">Bolivia</option>
-      <option value="es">España</option>
-    </select><br><br>
+        <p>Intereses:</p>
+        <p><input type="checkbox" name="musica"> Música</p>
+        <p><input type="checkbox" name="deporte"> Deporte</p>
+        <p><input type="checkbox" name="lectura"> Lectura</p>
 
-    <label for="msg">Mensaje:</label><br>
-    <textarea id="msg" name="message" rows="4"></textarea><br><br>
+        <p>País:
+            <select name="pais">
+                <option value="bolivia">Bolivia</option>
+                <option value="argentina">Argentina</option>
+                <option value="chile">Chile</option>
+            </select>
+        </p>
 
-    <input type="checkbox" id="subscribe" name="subscribe">
-    <label for="subscribe">Suscribirme</label><br><br>
+        <p>Comentarios:</p>
+        <p><textarea name="comentarios" rows="4" cols="40"></textarea></p>
 
-    <button type="submit">Enviar</button>
-  </form>
+        <p><input type="reset" value="Borrar"></p>
+        <p><input type="submit" value="Enviar"></p>
+        </form>
 </body>
-</html>
+
